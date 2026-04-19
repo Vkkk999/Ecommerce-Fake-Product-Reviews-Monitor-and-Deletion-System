@@ -1,0 +1,373 @@
+<!-- ================================================================= -->
+<!-- MODERN UI COMPONENTS - Copy & Paste Snippets -->
+<!-- ================================================================= -->
+
+<!-- These snippets can be used in other templates to maintain consistent design -->
+
+<!-- ================================================================= -->
+<!-- 1. MODERN BUTTON VARIATIONS -->
+<!-- ================================================================= -->
+
+<!-- Primary Button -->
+<button class="btn-modern" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 0.8rem 2rem; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onclick="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 10px 25px rgba(102, 126, 234, 0.3)';">
+    <i class="fas fa-check"></i> Primary Action
+</button>
+
+<!-- Secondary Button (Outline) -->
+<button style="background: transparent; border: 2px solid #667eea; color: #667eea; padding: 0.8rem 2rem; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.background='#667eea'; this.style.color='white';" onmouseout="this.style.background='transparent'; this.style.color='#667eea';">
+    <i class="fas fa-download"></i> Secondary Action
+</button>
+
+<!-- Danger Button -->
+<button style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: white; padding: 0.8rem 2rem; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; border: none;" onclick="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 10px 25px rgba(245, 87, 108, 0.3)';">
+    <i class="fas fa-trash"></i> Delete
+</button>
+
+<!-- ================================================================= -->
+<!-- 2. MODERN CARD CONTAINER -->
+<!-- ================================================================= -->
+
+<div style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%); 
+            border-radius: 16px; 
+            overflow: hidden; 
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15); 
+            backdrop-filter: blur(4px); 
+            border: 1px solid rgba(255, 255, 255, 0.3); 
+            transition: all 0.4s ease; 
+            padding: 2rem;
+            cursor: pointer;"
+     onmouseover="this.style.transform='translateY(-12px)'; this.style.boxShadow='0 20px 40px rgba(102, 126, 234, 0.3)';"
+     onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(31, 38, 135, 0.15)';">
+    <h3 style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Premium Card</h3>
+    <p style="color: #666; margin-top: 1rem;">This card features glassmorphism with smooth hover animations.</p>
+</div>
+
+<!-- ================================================================= -->
+<!-- 3. MODERN FORM INPUT -->
+<!-- ================================================================= -->
+
+<div style="margin-bottom: 1.5rem;">
+    <label style="font-weight: 600; color: #333; display: block; margin-bottom: 0.5rem;">Field Label</label>
+    <input type="text" 
+           placeholder="Enter value..." 
+           style="width: 100%; 
+                   border-radius: 8px; 
+                   border: 2px solid rgba(102, 126, 234, 0.2); 
+                   padding: 0.75rem 1rem; 
+                   font-family: 'Poppins', sans-serif; 
+                   transition: all 0.3s ease; 
+                   outline: none;" 
+           onfocus="this.style.borderColor='#667eea'; this.style.boxShadow='0 0 0 4px rgba(102, 126, 234, 0.1)';"
+           onblur="this.style.borderColor='rgba(102, 126, 234, 0.2)'; this.style.boxShadow='none';">
+</div>
+
+<!-- ================================================================= -->
+<!-- 4. MODERN BADGE/PILL -->
+<!-- ================================================================= -->
+
+<span style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); 
+             color: white; 
+             padding: 0.5rem 1rem; 
+             border-radius: 20px; 
+             font-size: 0.8rem; 
+             font-weight: 600;
+             display: inline-block;">
+    <i class="fas fa-star"></i> Premium
+</span>
+
+<!-- ================================================================= -->
+<!-- 5. MODERN ALERT MESSAGE -->
+<!-- ================================================================= -->
+
+<div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); 
+            border-left: 4px solid #667eea; 
+            padding: 1rem 1.5rem; 
+            border-radius: 8px; 
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;">
+    <i class="fas fa-info-circle" style="color: #667eea; font-size: 1.3rem;"></i>
+    <div>
+        <strong style="color: #667eea;">Alert Title</strong>
+        <p style="color: #666; margin: 0.3rem 0 0 0; font-size: 0.9rem;">This is a modern alert message with glassmorphism effect.</p>
+    </div>
+</div>
+
+<!-- ================================================================= -->
+<!-- 6. MODERN GRID LAYOUT -->
+<!-- ================================================================= -->
+
+<div style="display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 2rem; 
+            padding: 2rem 0;">
+    <!-- Item 1 -->
+    <div style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);">
+        <h4 style="color: #333; margin-bottom: 0.5rem;">Item 1</h4>
+        <p style="color: #666;">Content goes here</p>
+    </div>
+    <!-- Item 2 -->
+    <div style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);">
+        <h4 style="color: #333; margin-bottom: 0.5rem;">Item 2</h4>
+        <p style="color: #666;">Content goes here</p>
+    </div>
+    <!-- Item 3 -->
+    <div style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);">
+        <h4 style="color: #333; margin-bottom: 0.5rem;">Item 3</h4>
+        <p style="color: #666;">Content goes here</p>
+    </div>
+</div>
+
+<!-- ================================================================= -->
+<!-- 7. MODERN PROGRESS BAR -->
+<!-- ================================================================= -->
+
+<div style="width: 100%; 
+            height: 8px; 
+            background: rgba(102, 126, 234, 0.1); 
+            border-radius: 10px; 
+            overflow: hidden;
+            margin-bottom: 1rem;">
+    <div style="height: 100%; 
+                width: 65%; 
+                background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+                border-radius: 10px;
+                animation: slideIn 2s ease;">
+    </div>
+</div>
+
+<!-- ================================================================= -->
+<!-- 8. MODERN DIVIDER -->
+<!-- ================================================================= -->
+
+<div style="text-align: center; 
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;">
+    <div style="position: absolute; 
+                top: 50%; 
+                left: 0; 
+                right: 0; 
+                height: 1px; 
+                background: linear-gradient(90deg, transparent 0%, #667eea 50%, transparent 100%);"></div>
+    <span style="background: white; 
+                 padding: 0 1rem; 
+                 color: #999; 
+                 font-size: 0.9rem;
+                 position: relative;
+                 display: inline-block;">OR</span>
+</div>
+
+<!-- ================================================================= -->
+<!-- 9. MODERN STEPS/PROGRESS INDICATOR -->
+<!-- ================================================================= -->
+
+<div style="display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            margin-bottom: 2rem;">
+    <!-- Step 1 -->
+    <div style="display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                flex: 1;">
+        <div style="width: 50px; 
+                    height: 50px; 
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                    border-radius: 50%; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    color: white; 
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;">1</div>
+        <span style="font-size: 0.9rem; color: #666;">Step 1</span>
+    </div>
+    
+    <!-- Connector -->
+    <div style="flex: 1; 
+                height: 2px; 
+                background: linear-gradient(90deg, #667eea 0%, #764ba2 100%); 
+                margin-bottom: 2rem;"></div>
+    
+    <!-- Step 2 -->
+    <div style="display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                flex: 1;">
+        <div style="width: 50px; 
+                    height: 50px; 
+                    background: rgba(102, 126, 234, 0.2); 
+                    border-radius: 50%; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    color: #999; 
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;">2</div>
+        <span style="font-size: 0.9rem; color: #999;">Step 2</span>
+    </div>
+</div>
+
+<!-- ================================================================= -->
+<!-- 10. MODERN TABLE HEADER -->
+<!-- ================================================================= -->
+
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 2rem;">
+    <thead>
+        <tr style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%); 
+                   border-bottom: 2px solid #667eea;">
+            <th style="text-align: left; padding: 1rem; font-weight: 600; color: #333;">Header 1</th>
+            <th style="text-align: left; padding: 1rem; font-weight: 600; color: #333;">Header 2</th>
+            <th style="text-align: left; padding: 1rem; font-weight: 600; color: #333;">Header 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="border-bottom: 1px solid #eee; transition: background 0.3s ease;" 
+            onmouseover="this.style.background='rgba(102, 126, 234, 0.05)';"
+            onmouseout="this.style.background='white';">
+            <td style="padding: 1rem;">Data 1</td>
+            <td style="padding: 1rem;">Data 2</td>
+            <td style="padding: 1rem;">Data 3</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- ================================================================= -->
+<!-- 11. MODERN NOTIFICATION POPUP -->
+<!-- ================================================================= -->
+
+<div style="position: fixed; 
+            top: 100px; 
+            right: 20px; 
+            padding: 1rem 1.5rem; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            color: white; 
+            border-radius: 8px; 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+            z-index: 10000;
+            animation: slideIn 0.3s ease-out;
+            display: flex;
+            align-items: center;
+            gap: 1rem;">
+    <i class="fas fa-check-circle" style="font-size: 1.3rem;"></i>
+    <div>
+        <strong>Success!</strong>
+        <p style="margin: 0.3rem 0 0 0; font-size: 0.9rem;">Your action completed successfully.</p>
+    </div>
+</div>
+
+<!-- ================================================================= -->
+<!-- 12. MODERN ICON SECTION -->
+<!-- ================================================================= -->
+
+<div style="display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 2rem;
+            padding: 2rem 0;">
+    <!-- Icon Box -->
+    <div style="text-align: center; 
+                padding: 2rem; 
+                background: white; 
+                border-radius: 12px; 
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+                transition: all 0.3s ease;"
+         onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 16px 32px rgba(102, 126, 234, 0.2)';"
+         onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.1)';">
+        <div style="font-size: 3rem; 
+                    color: #667eea; 
+                    margin-bottom: 1rem;">
+            <i class="fas fa-rocket"></i>
+        </div>
+        <h4 style="color: #333; margin-bottom: 0.5rem;">Feature</h4>
+        <p style="color: #666; font-size: 0.9rem;">Description of the feature goes here.</p>
+    </div>
+</div>
+
+<!-- ================================================================= -->
+<!-- CSS ANIMATION REFERENCE -->
+<!-- ================================================================= -->
+
+<style>
+@keyframes slideIn {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Add any of these classes to elements */
+.slide-in { animation: slideIn 0.3s ease-out; }
+.fade-in { animation: fadeIn 0.3s ease-out; }
+.scale-in { animation: scaleIn 0.3s ease-out; }
+</style>
+
+<!-- ================================================================= -->
+<!-- HELPFUL NOTES -->
+<!-- ================================================================= -->
+
+<!--
+COLOR PALETTE:
+- Primary Purple: #667eea
+- Secondary Purple: #764ba2
+- Pink: #f093fb
+- Red: #f5576c
+- Cyan: #4facfe
+- Light Cyan: #00f2fe
+- Light Gray: #f5f7fa
+- Medium Gray: #c3cfe2
+- Dark Text: #333
+- Light Text: #666
+- Very Light Text: #999
+
+SPACING SCALE:
+- 0.5rem = 8px
+- 0.75rem = 12px
+- 1rem = 16px
+- 1.5rem = 24px
+- 2rem = 32px
+- 3rem = 48px
+
+BORDER RADIUS:
+- Large: 16px (cards)
+- Medium: 12px (containers)
+- Small: 8px (buttons, inputs)
+- Pill: 20px (badges)
+- Circle: 50% (avatars)
+
+SHADOWS:
+- Light: 0 4px 8px rgba(0, 0, 0, 0.1)
+- Medium: 0 8px 16px rgba(0, 0, 0, 0.15)
+- Heavy: 0 12px 24px rgba(0, 0, 0, 0.2)
+
+TRANSITIONS:
+- Fast: 0.15s
+- Normal: 0.3s
+- Slow: 0.5s
+- Very Slow: 0.8s
+-->
